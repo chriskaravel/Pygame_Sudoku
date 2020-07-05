@@ -10,7 +10,7 @@ class Grid:
     while solve(board) == False:
         board = create_board()
         solve(board)
-    create_play_board(board,'2')
+    create_play_board(board,'2') # (1=easy, 2=medium, 3=hard)difficulty.so it creates more null boxes
 
     def __init__(self, rows, cols, width, height):
         self.rows = rows
